@@ -554,15 +554,108 @@ video {
   --tw-contain-style:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.font-bold {
-  font-weight: 700;
+.flex {
+  display: flex;
 }
 
-.underline {
-  text-decoration-line: underline;
+.max-w-\[1220px\] {
+  max-width: 1220px;
 }
+
+.grow {
+  flex-grow: 1;
+}
+
+.basis-0 {
+  flex-basis: 0px;
+}
+
+.basis-\[0\] {
+  flex-basis: 0;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.gap-\[35px\] {
+  gap: 35px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-\[\#32323D\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(50 50 61 / var(--tw-border-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#020204\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 2 4 / var(--tw-bg-opacity));
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.py-\[6px\] {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.py-\[18px\] {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-\[\#C7A17A\] {
+  --tw-text-opacity: 1;
+  color: rgb(199 161 122 / var(--tw-text-opacity));
+}
+
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
