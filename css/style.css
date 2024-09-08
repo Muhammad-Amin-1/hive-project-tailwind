@@ -559,12 +559,79 @@ video {
   margin-right: auto;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.mx-\[20px\] {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.my-\[20px\] {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mb-\[35px\] {
+  margin-bottom: 35px;
+}
+
+.mr-\[20px\] {
+  margin-right: 20px;
+}
+
+.mb-\[15px\] {
+  margin-bottom: 15px;
+}
+
+.mb-\[40px\] {
+  margin-bottom: 40px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
+.mr-\[30px\] {
+  margin-right: 30px;
+}
+
+.ml-\[30px\] {
+  margin-left: 30px;
+}
+
 .flex {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
+.hidden {
+  display: none;
+}
+
+.max-h-\[330px\] {
+  max-height: 330px;
+}
+
+.min-h-\[330px\] {
+  min-height: 330px;
+}
+
 .max-w-\[1220px\] {
   max-width: 1220px;
+}
+
+.max-w-\[570px\] {
+  max-width: 570px;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
 }
 
 .grow {
@@ -577,6 +644,10 @@ video {
 
 .basis-\[0\] {
   flex-basis: 0;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .items-center {
@@ -603,6 +674,26 @@ video {
   gap: 30px;
 }
 
+.gap-\[21px\] {
+  gap: 21px;
+}
+
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-\[2px\] {
+  border-width: 2px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -626,6 +717,56 @@ video {
   background-color: rgb(2 2 4 / var(--tw-bg-opacity));
 }
 
+.bg-\[src\=\.\/images\] {
+  background-color: src=./images;
+}
+
+.bg-\[src\=\.\/images\/top-photo\.png\] {
+  background-color: src=./images/top-photo.png;
+}
+
+.bg-\[images\/top-photo\.png\] {
+  background-color: images/top-photo.png;
+}
+
+.bg-\[url\=\'\.\/images\/top-photo\.png\'\] {
+  background-color: url='./images/top-photo.png';
+}
+
+.bg-\[\#C7A17A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(199 161 122 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#14141D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(20 20 29 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\.\/images\/top-photo\.png\'\)\] {
+  background-image: url('./images/top-photo.png');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .px-\[10px\] {
   padding-left: 10px;
   padding-right: 10px;
@@ -646,8 +787,69 @@ video {
   padding-bottom: 80px;
 }
 
+.py-\[200px\] {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.px-\[60px\] {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.py-\[15px\] {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.px-\[20px\] {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-\[20px\] {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.pb-\[80px\] {
+  padding-bottom: 80px;
+}
+
+.pt-\[100px\] {
+  padding-top: 100px;
+}
+
+.pr-\[\] {
+  padding-right: ;
+}
+
+.pt-\[30px\] {
+  padding-top: 30px;
+}
+
+.pr-\[73px\] {
+  padding-right: 73px;
+}
+
+.pb-\[42px\] {
+  padding-bottom: 42px;
+}
+
+.pl-\[30px\] {
+  padding-left: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-right {
   text-align: right;
+}
+
+.align-middle {
+  vertical-align: middle;
 }
 
 .text-sm {
@@ -663,6 +865,22 @@ video {
   font-size: 20px;
 }
 
+.text-\[60px\] {
+  font-size: 60px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -671,8 +889,20 @@ video {
   font-weight: 900;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .uppercase {
   text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.leading-\[1\.44\] {
+  line-height: 1.44;
 }
 
 .text-\[\#C7A17A\] {
@@ -688,5 +918,14 @@ video {
 .text-\[\#F8DABF\] {
   --tw-text-opacity: 1;
   color: rgb(248 218 191 / var(--tw-text-opacity));
+}
+
+.text-\[\#818181\] {
+  --tw-text-opacity: 1;
+  color: rgb(129 129 129 / var(--tw-text-opacity));
+}
+
+.line-through {
+  text-decoration-line: line-through;
 }
 
