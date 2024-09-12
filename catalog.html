@@ -1,75 +1,624 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="bg-[#020204] text-[#fff]">
-  <header class="font-semibold uppercase">
-    <div class="border-b border-[#32323D] text-sm">
-      <div
-        class="max-w-[1220px] mx-auto px-[10px] flex justify-between items-center"
-      >
-        <div class="flex items-center gap-[10px] py-[6px]">
-          <p class="">RU</p>
-          <p class="text-[#C7A17A]">EN</p>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="text-[#fff]">
+    <header class="font-semibold uppercase bg-black">
+      <div class="border-b border-[#32323D] text-sm">
+        <div
+          class="max-w-[1420px] mx-auto px-[10px] flex justify-between items-center"
+        >
+          <div class="flex items-center gap-[10px] py-[6px]">
+            <p class="">RU</p>
+            <p class="text-[#C7A17A]">EN</p>
+          </div>
+          <a href="tel:+371000000" class="">+371000000</a>
         </div>
-        <a href="tel:+371000000" class="">+371000000</a>
+      </div>
+      <div class="py-[18px] border-b border-[#32323D] text-[15px]">
+        <div
+          class="max-w-[1420px] mx-auto px-[10px] flex justify-between items-center"
+        >
+          <ul class="flex items-center gap-[35px] grow basis-[0]">
+            <li class="text-[#C7A17A]">Home</li>
+            <li class="">About</li>
+            <li class="">Menu</li>
+            <li class="">Reservation</li>
+          </ul>
+          <a href="./index.html" class="">
+            <img src="./images/logo.svg" alt="" />
+          </a>
+          <ul class="flex items-center gap-[30px] grow basis-[0] justify-end">
+            <img src="./images/header-1.svg" alt="" />
+            <img src="images/header-2.svg" alt="" />
+            <img src="./images/header-3.svg" alt="" />
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- --------------------------------card cection-------------------------- -->
+    <section class="py-[50px]">
+      <div class="max-w-[1420px] mx-auto px-[10px]">
+        <div class="flex justify-between items-center">
+          <h1 class="mb-[10px] text-[45px] text-black">Кофе</h1>
+          <button class="bg-[#C7A17A] rounded py-[4px] px-[25px] uppercase">
+            Фильтры
+          </button>
+        </div>
+        <div class="flex gap-11">
+          <div class="min-w-[260px] flex flex-col gap-2 relative text-[20px]">
+            <ul class="bg-[#C7A17A] rounded py-[4px] px-[15px] uppercase">
+              <a href="" class="">дисерты</a>
+            </ul>
+            <ul class="bg-[#C7A17A] rounded py-[4px] px-[15px] uppercase">
+              <a href="" class="">чай</a>
+            </ul>
+            <ul class="bg-[#C7A17A] rounded py-[4px] px-[15px] uppercase">
+              <a href="" class="">напитки</a>
+            </ul>
+            <div class="">
+              <button
+                class="btn bg-[#C7A17A] rounded-t-[7px] py-[4px] px-[15px] uppercase text-left w-[100%]"
+              >
+                кофе
+              </button>
+              <ul
+                class="menu bg-[#eee9e3] text-black px-[15px] py-[15px] flex flex-col gap-[10px] rounded-b-[7px] text-[16px] uppercase"
+              >
+                <li>Кофе с урбечем</li>
+                <li>бамбл</li>
+                <li>Айс кофе</li>
+                <li>латте</li>
+                <li>американо</li>
+                <li>капучино</li>
+              </ul>
+            </div>
+          </div>
+          <div class="">
+            <div class="grid grid-cols-3 gap-[21px] text-amber-950">
+              <div class="bg-white rounded-[10px]">
+                <img
+                  src="./images/урбеч.png"
+                  alt=""
+                  class="h-[250px] rounded-t-[10px]"
+                />
+                <div
+                  class="px-[15px] pb-[15px] pt-[15px] border rounded-b-[10px]"
+                  style="
+                    background-image: url(./images/decor-1.png);
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <h2 class="text-[24px] font-black uppercase mb-[13px]">
+                    Кофе с урбечем
+                  </h2>
+                  <div class="flex items-center">
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                  </div>
+
+                  <p class="text-[25px] mb-[30px] mt-[10px]">300p</p>
+                  <span class="bg-[#ded3c9] py-[5px] px-[10px]">250мл</span>
+                  <span class="border border-[#ded3c9] py-[4px] px-[9px]"
+                    >350мл</span
+                  >
+                  <p
+                    class="bg-[#C7A17A] py-[10px] px-[20px] mt-[15px] rounded uppercase text-white font-bold text-center hover:bg-amber-950"
+                    href="#"
+                  >
+                    заказать
+                  </p>
+                </div>
+              </div>
+              <div class="bg-white rounded-[10px]">
+                <img
+                  src="./images/бамбл 350мл-3.jpeg"
+                  alt=""
+                  class="rounded-t-[7px] h-[250px]"
+                />
+                <div
+                  class="px-[15px] pb-[15px] pt-[15px] border rounded-b-[10px]"
+                  style="
+                    background-image: url(./images/decor-1.png);
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <h2 class="text-[24px] font-black uppercase mb-[13px]">
+                    бамбл
+                  </h2>
+                  <div class="flex items-center">
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                  </div>
+                  <p class="text-[25px] mb-[30px] mt-[10px]">400р</p>
+                  <span class="bg-[#ded3c9] py-[5px] px-[10px]">250мл</span>
+                  <span class="border border-[#ded3c9] py-[4px] px-[9px]"
+                    >350мл</span
+                  >
+                  <p
+                    class="bg-[#C7A17A] py-[10px] px-[20px] mt-[15px] rounded uppercase text-white font-bold text-center"
+                    href="#"
+                  >
+                    заказать
+                  </p>
+                </div>
+              </div>
+              <div class="bg-white rounded-[10px]">
+                <img
+                  src="./images/айс кофе .png"
+                  alt=""
+                  class="w-[100%] h-[250px] rounded-t-[7px]"
+                />
+                <div
+                  class="px-[15px] pb-[15px] pt-[15px] border rounded-b-[10px]"
+                  style="
+                    background-image: url(./images/decor-1.png);
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <h2 class="text-[24px] font-black uppercase mb-[13px]">
+                    Айс кофе
+                  </h2>
+                  <div class="flex items-center">
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                  </div>
+                  <p class="text-[25px] mb-[30px] mt-[10px]">300p</p>
+                  <span class="bg-[#ded3c9] py-[5px] px-[10px]">250мл</span>
+                  <span class="border border-[#ded3c9] py-[4px] px-[9px]"
+                    >350мл</span
+                  >
+                  <p
+                    class="bg-[#C7A17A] py-[10px] px-[20px] mt-[15px] rounded uppercase text-white font-bold text-center"
+                    href="#"
+                  >
+                    заказать
+                  </p>
+                </div>
+              </div>
+              <div class="bg-white rounded-[10px]">
+                <img
+                  src="./images/айс-латте-2.png"
+                  alt=""
+                  class="w-[100%] h-[250px] rounded-t-[7px]"
+                />
+                <div
+                  class="px-[15px] pb-[15px] pt-[15px] border rounded-b-[10px]"
+                  style="
+                    background-image: url(./images/decor-1.png);
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <h2 class="text-[24px] font-black uppercase mb-[13px]">
+                    латте
+                  </h2>
+                  <div class="flex items-center">
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                  </div>
+                  <p class="text-[25px] mb-[30px] mt-[10px]">250p</p>
+                  <span class="bg-[#ded3c9] py-[5px] px-[10px]">250мл</span>
+                  <span class="border border-[#ded3c9] py-[4px] px-[9px]"
+                    >350мл</span
+                  >
+                  <p
+                    class="bg-[#C7A17A] py-[10px] px-[20px] mt-[15px] rounded uppercase text-white font-bold text-center"
+                    href="#"
+                  >
+                    заказать
+                  </p>
+                </div>
+              </div>
+              <div class="bg-white rounded-[10px]">
+                <img
+                  src="./images/news-2.png"
+                  alt=""
+                  class="w-[100%] h-[250px]"
+                />
+                <div
+                  class="px-[15px] pb-[15px] pt-[15px] border rounded-b-[10px]"
+                  style="
+                    background-image: url(./images/decor-1.png);
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <h2 class="text-[24px] font-black uppercase mb-[13px]">
+                    американо
+                  </h2>
+                  <div class="flex items-center">
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                  </div>
+                  <p class="text-[25px] mb-[30px] mt-[10px]">250p</p>
+                  <span class="bg-[#ded3c9] py-[5px] px-[10px]">250мл</span>
+                  <span class="border border-[#ded3c9] py-[4px] px-[9px]"
+                    >350мл</span
+                  >
+                  <p
+                    class="bg-[#C7A17A] py-[10px] px-[20px] mt-[15px] rounded uppercase text-white font-bold text-center"
+                    href="#"
+                  >
+                    заказать
+                  </p>
+                </div>
+              </div>
+              <div class="bg-white rounded-[10px]">
+                <img
+                  src="./images/news-1.png"
+                  alt=""
+                  class="w-[100%] h-[250px]"
+                />
+                <div
+                  class="px-[15px] pb-[15px] pt-[15px] border rounded-b-[10px]"
+                  style="
+                    background-image: url(./images/decor-1.png);
+                    background-size: cover;
+                    background-position: center;
+                  "
+                >
+                  <h2 class="text-[24px] font-black uppercase mb-[13px]">
+                    капучино
+                  </h2>
+                  <div class="flex items-center">
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                    <img src="./images/zvezda.svg" alt="" />
+                  </div>
+                  <p class="text-[25px] mb-[30px] mt-[10px]">300p</p>
+                  <span class="bg-[#ded3c9] py-[5px] px-[10px]">250мл</span>
+                  <span class="border border-[#ded3c9] py-[4px] px-[9px]"
+                    >350мл</span
+                  >
+                  <p
+                    class="bg-[#C7A17A] py-[10px] px-[20px] mt-[15px] rounded uppercase text-white font-bold text-center"
+                    href="#"
+                  >
+                    заказать
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------------js cection-------------------------- -->
+
+    <section class="py-[180px]">
+      <div class="max-w-[1220px] mx-auto px-[10px]">
+        <div class="flex justify-between items-center">
+          <div class="">
+            <img
+              src="./images/kofe.jpg"
+              alt=""
+              class="image w-[750px] h-[450px] rounded-l-3xl"
+            />
+            <!-- <img src="./images/айс-латте-2.png" alt="" class="image w-[750px]"> -->
+          </div>
+          <div
+            class="w-[750px] h-[450px] bg-white text-amber-950 py-[30px] px-[20px] rounded-r-3xl"
+            style="
+              background-image: url(./images/decor-1.png);
+              background-size: cover;
+              background-position: center;
+            "
+          >
+            <div class="h-[230px]">
+              <h2 class="title text-[30px] font-black uppercase text-center">
+                Не знаещь какое кофе выбрать?
+                <br />
+                —тогда предоставь это искусственному интеллекту.
+              </h2>
+            </div>
+            <div class="pt-[30px] border-t border-[#32323D]">
+              <button
+                class="button bg-[#C7A17A] py-[13px] px-[245px] text-[#fff] uppercase hover:bg-amber-950"
+              >
+                click me
+              </button>
+              <p class="uppercase text-[10px] mt-[25px]">#Акция</p>
+              <p class="uppercase first-line:text-[10px]">
+                Купи у нас кофе, и получи в подарок сахар
+              </p>
+              <p class="uppercase text-[10px]">
+                Если не купишь то мы заставами вас купить
+              </p>
+              <p class="uppercase text-[10px]">Thank you</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------------witdth cofi cection-------------------------- -->
+    <section
+      class="h-[540px]"
+      style="
+        background-image: url(./images/width.png);
+        background-size: cover;
+        background-position: center;
+      "
+    ></section>
+    <!-- --------------------------------form cection-------------------------- -->
+    <section class="grid grid-cols-2">
+      <div
+        class="py-[255px] flex flex-col gap-[10px] text-black justify-center items-center px-[100px] w-[100%] h-[691px]"
+      >
+        <div class="flex items-center">
+          <img src="./images/zvezda.svg" alt="" />
+          <img src="./images/zvezda.svg" alt="" />
+          <img src="./images/zvezda.svg" alt="" />
+          <img src="./images/zvezda.svg" alt="" />
+          <img src="./images/zvezda.svg" alt="" />
+        </div>
+        <h2 class="text-[35px] font-bold h-[215px] text-center">
+          "Another reason people just can't keep away from their local coffee
+          shop is the quality of coffee that's on offer. "
+        </h2>
+        <p>Henry Monro</p>
+      </div>
+      <div class="w-[100%]">
+        <img src="./images/shadow.png" alt="" />
+      </div>
+    </section>
+    <!-- --------------------------------zerno cection-------------------------- -->
+    <section class="text-black">
+      <div class="py-[38px] pl-[50px] border-y border-black">
+        <h2 class="text-[70px] font-black">swing by our place we also</h2>
+      </div>
+      <div class="grid grid-cols-4 gap-2">
+        <div class="border-l border-black py-[40px] px-[40px]">
+          <img src="./images/zerno-1.png" alt="" />
+          <h2 class="mt-[30px] text-[25px] font-black">French Roast</h2>
+          <p class="text-[18px]">$37.00$</p>
+        </div>
+        <div class="border-l border-black py-[40px] px-[40px]">
+          <img src="./images/zerno-2.png" alt="" />
+          <h2 class="mt-[30px] text-[25px] font-black">Decaf espresso</h2>
+          <p class="text-[18px]">$41.00$</p>
+        </div>
+        <div class="border-l border-black py-[40px] px-[40px]">
+          <img src="./images/zerno-3.png" alt="" />
+          <h2 class="mt-[30px] text-[25px] font-black">Costa Rica</h2>
+          <p class="text-[18px]">56.00$</p>
+        </div>
+        <div class="border-l border-black py-[40px] px-[40px]">
+          <img src="./images/zerno-4.png" alt="" />
+          <h2 class="mt-[30px] text-[25px] font-black">Decaf French Roast</h2>
+          <p class="text-[18px]">$22.00$</p>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------------bulochka cection-------------------------- -->
+    <section class="bg-[#FDF1D9] border-y border-black text-[black] flex">
+      <div class="pr pt-[50px] pl-[50px] pb-[70px] border-r border-black">
+        <h2 class="mb-[233px] text-[70px] font-black w-[604px] leading-[1.14]">
+          swing by our place we also
+        </h2>
+        <div class="">
+          <img src="./images/bulochk.png" alt="" />
+        </div>
+      </div>
+      <div class="w-[100%]">
+        <div
+          class="border-b border-black py-[50px] flex justify-between w-[100%] px-[50px] items-center"
+        >
+          <div class="w-[360px]">
+            <h2 class="text-[35px] font-black leading-[1.14]">Delivery</h2>
+            <p>Vivamus hendrerit at sapien nec mattis. Quisque quis arcu</p>
+          </div>
+          <p>View More</p>
+        </div>
+        <div
+          class="border-b border-black py-[50px] flex justify-between w-[100%] px-[50px] items-center"
+        >
+          <div class="w-[360px]">
+            <h2 class="text-[35px] font-black leading-[1.14]">Delivery</h2>
+            <p>Vivamus hendrerit at sapien nec mattis. Quisque quis arcu</p>
+          </div>
+          <p>View More</p>
+        </div>
+        <div
+          class="border-b border-black py-[50px] flex justify-between w-[100%] px-[50px] items-center"
+        >
+          <div class="w-[360px]">
+            <h2 class="text-[35px] font-black leading-[1.14]">Delivery</h2>
+            <p>Vivamus hendrerit at sapien nec mattis. Quisque quis arcu</p>
+          </div>
+          <p>View More</p>
+        </div>
+        <div
+          class="py-[50px] flex justify-between w-[100%] px-[50px] items-center"
+        >
+          <div class="w-[360px]">
+            <h2 class="text-[35px] font-black leading-[1.14]">Delivery</h2>
+            <p>Vivamus hendrerit at sapien nec mattis. Quisque quis arcu</p>
+          </div>
+          <p>View More</p>
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------------card cection-------------------------- -->
+    <section class="text-black">
+      <div class="py-[38px] pl-[50px] border-b border-black">
+        <h2 class="text-[70px] font-black">Follow Us For More</h2>
+      </div>
+      <div
+        class="py-[40px] px-[40px] border-b border-black grid grid-cols-5 gap-[31px]"
+      >
+        <div class="">
+          <img src="./images/card-1.png" alt="" class="rounded-[10px]" />
+        </div>
+        <div class="">
+          <img src="./images/card-2.png" alt="" class="rounded-[10px]" />
+        </div>
+        <div class="">
+          <img src="./images/card-3.png" alt="" class="rounded-[10px]" />
+        </div>
+        <div class="">
+          <img src="./images/card-4.png" alt="" class="rounded-[10px]" />
+        </div>
+        <div class="">
+          <img src="./images/card-5.png" alt="" class="rounded-[10px]" />
+        </div>
+        <div class="">
+          <img src="./images/card-6.png" alt="" class="rounded-[10px]" />
+        </div>
+        <div class="">
+          <img src="./images/card-7.png" alt="" class="rounded-[10px]" />
+        </div>
+        <div class="">
+          <img src="./images/card-8.png" alt="" class="rounded-[10px]" />
+        </div>
+        <div class="">
+          <img src="./images/card-9.png" alt="" class="rounded-[10px]" />
+        </div>
+        <div class="">
+          <img src="./images/card-2.png" alt="" class="rounded-[10px]" />
+        </div>
+      </div>
+    </section>
+    <!-- --------------------------------form cection-------------------------- -->
+    <div class="flex justify-center items-center py-[150px] bg-[#eee9e3]">
+      <div
+        class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8 min-w-[500px] bg-white border rounded-l-[10px]"
+        style="
+          background-image: url(./images/decor-1.png);
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="sm:mx-auto sm:w-full sm:max-w-sm">
+          <img
+            class="mx-auto h-20 w-auto"
+            src="./images/logo.svg"
+            alt="Your Company"
+          />
+          <h2
+            class="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-black"
+          >
+            Sign in to your account
+          </h2>
+        </div>
+
+        <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+          <form class="space-y-6" action="#" method="POST">
+            <div>
+              <label
+                for="email"
+                class="block text-sm font-medium leading-6 text-black"
+                >Email address</label
+              >
+              <div class="mt-2">
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                />
+              </div>
+            </div>
+
+            <div>
+              <div class="flex items-center justify-between">
+                <label
+                  for="password"
+                  class="block text-sm font-medium leading-6 text-gray-900"
+                  >Password</label
+                >
+                <div class="text-sm">
+                  <a
+                    href="#"
+                    class="font-semibold text-indigo-600 hover:text-indigo-500"
+                    >Forgot password?</a
+                  >
+                </div>
+              </div>
+              <div class="mt-2">
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  autocomplete="current-password"
+                  required
+                  class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                />
+              </div>
+            </div>
+
+            <div>
+              <button
+                type="submit"
+                class="flex w-full justify-center rounded-md bg-[#C7A17A] px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-amber-950 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Sign in
+              </button>
+            </div>
+          </form>
+
+          <p class="mt-10 text-center text-sm text-gray-500">
+            Not a member?
+            <a
+              href="#"
+              class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+              >Start a 14 day free trial</a
+            >
+          </p>
+        </div>
+      </div>
+      <div class="">
+        <img src="./images/dop.png" alt="" class="h-[576px] rounded-r-[10px]" />
       </div>
     </div>
-    <div class="py-[18px] border-b border-[#32323D] text-[15px]">
+
+    <footer class="py-[40px] border-t border-[#32323D] bg-black">
       <div
-        class="max-w-[1220px] mx-auto px-[10px] flex justify-between items-center"
+        class="max-w-[1420px] mx-auto px-[10px] flex justify-between items-center"
       >
-        <ul class="flex items-center gap-[35px] grow basis-[0]">
-          <li class="text-[#C7A17A]">Home</li>
+        <div class="flex justify-between items-center">
+          <img src="./images/logo.svg" alt="" />
+          <p class="font-black text-[20px] text-[#F8DABF]">CoffeMeet</p>
+        </div>
+        <ul>
+          <li class="">Home</li>
           <li class="">About</li>
           <li class="">Menu</li>
           <li class="">Reservation</li>
         </ul>
-        <a href="#" class="">
-          <img src="./images/logo.svg" alt="" />
-        </a>
-        <ul class="flex items-center gap-[30px] grow basis-[0] justify-end">
-          <img src="./images/header-1.svg" alt="" />
-          <img src="images/header-2.svg" alt="" />
-          <img src="./images/header-3.svg" alt="" />
+        <ul>
+          <li class="">Contacts</li>
+          <li class="">Privacy policy</li>
         </ul>
       </div>
-    </div>
-  </header>
-
-  <section>
-    
-  </section>
-
-
-
-
-
-  <footer class="py-[80px] border-t border-[#32323D]">
-    <div
-      class="max-w-[1220px] mx-auto px-[10px] flex justify-between items-center"
-    >
-      <div class="flex justify-between items-center">
-        <img src="./images/logo.svg" alt="" />
-        <p class="font-black text-[20px] text-[#F8DABF]">CoffeMeet</p>
-      </div>
-      <ul>
-        <li class="">Home</li>
-        <li class="">About</li>
-        <li class="">Menu</li>
-        <li class="">Reservation</li>
-      </ul>
-      <ul>
-        <li class="">Contacts</li>
-        <li class="">Privacy policy</li>
-      </ul>
-    </div>
-  </footer>
-  <script src="main.js"></script>
-    
-</body>
+    </footer>
+    <script src="https://code.s3.yandex.net/web-code/smoothly.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
